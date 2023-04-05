@@ -1,0 +1,13 @@
+venv
+*.pyc
+staticfiles
+.env
+*.idea/
+/.idea
+/.idea/*
+.DS_Store
+__pycache__
+*/__pycache__
+env
+*.icloud
+*.icloud/
