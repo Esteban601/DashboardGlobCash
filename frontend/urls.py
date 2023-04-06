@@ -28,7 +28,6 @@ urlpatterns = [
         path('dividendos_pagados', views.dividendos_pagados, name='dividendos_pagados'),
         path('utilidad_neta', views.utilidad_neta, name='utilidad_neta'),
         path('salario_min', views.salario_min, name='salario_min'),
-        path('obligaciones_laborales', views.obligaciones_laborales, name='obligaciones_laborales'),
         path('inversion_proyecto', views.inversion_proyecto, name='inversion_proyecto'),
         path('inversiones_comunitarias', views.inversiones_comunitarias, name='inversiones_comunitarias'),
         path('ejecutivos_contratados', views.ejecutivos_contratados, name='ejecutivos_contratados'),
@@ -39,6 +38,7 @@ urlpatterns = [
         path('maquinaria_averiada', views.maquinaria_averiada, name='maquinaria_averiada'),
 
         path('consumo_energetico', views.consumo_energetico, name='consumo_energetico'),
+        path('consumo_agua', views.consumo_agua, name='consumo_agua'),
         path('consumo_energia_renobable', views.consumo_energia_renobable, name='consumo_energia_renobable'),
         path('reduccion_consumo_energia', views.reduccion_consumo_energia, name='reduccion_consumo_energia'),
 

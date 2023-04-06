@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-03 15:21-0400\n"
+"POT-Creation-Date: 2023-04-06 10:27-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,56 +18,347 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\dashboardpinfraesg\settings.py:148
+#: .\dashboardglobcash\settings.py:148
 msgid "Spanish"
 msgstr ""
 
-#: .\frontend\templates\partials\footer.html:16
-msgid "Aviso de privacidad"
+#: .\frontend\templates\layauts\base.html:83
+#: .\frontend\templates\partials\header.html:76
+#: .\frontend\templates\partials\sidebar.html:75
+#: .\frontend\templates\partials\sidebar.html:77
+#: .\frontend\templates\partials\sidebar.html:96 .\frontend\views.py:133
+#: .\frontend\views.py:141 .\frontend\views.py:149 .\frontend\views.py:157
+#: .\frontend\views.py:165 .\frontend\views.py:173 .\frontend\views.py:181
+#: .\frontend\views.py:189 .\frontend\views.py:197 .\frontend\views.py:205
+#: .\frontend\views.py:213 .\frontend\views.py:221 .\frontend\views.py:229
+#: .\frontend\views.py:237 .\frontend\views.py:245 .\frontend\views.py:253
+msgid "economicos"
+msgstr "Económicos"
+
+#: .\frontend\templates\layauts\base.html:105
+#: .\frontend\templates\layauts\base.html:506
+#: .\frontend\templates\partials\header.html:79
+#: .\frontend\templates\partials\sidebar.html:97 .\frontend\views.py:132
+msgid "ingresos"
+msgstr "Total de ingresos"
+
+#: .\frontend\templates\layauts\base.html:110
+#: .\frontend\templates\layauts\base.html:513
+#: .\frontend\templates\partials\sidebar.html:102 .\frontend\views.py:140
+msgid "costos"
+msgstr "Costos Totales"
+
+#: .\frontend\templates\layauts\base.html:115
+#: .\frontend\templates\layauts\base.html:520
+#: .\frontend\templates\partials\header.html:83
+#: .\frontend\templates\partials\sidebar.html:107 .\frontend\views.py:148
+msgid "operacion"
+msgstr "Utilidad Bruta"
+
+#: .\frontend\templates\layauts\base.html:120
+#: .\frontend\templates\layauts\base.html:527
+#: .\frontend\templates\partials\header.html:87
+#: .\frontend\templates\partials\sidebar.html:112 .\frontend\views.py:156
+msgid "financieros"
+msgstr "Utilidad de Operación"
+
+#: .\frontend\templates\layauts\base.html:125
+#: .\frontend\templates\layauts\base.html:534
+#: .\frontend\templates\partials\header.html:91
+#: .\frontend\templates\partials\sidebar.html:117 .\frontend\views.py:164
+msgid "impuestos_utilidad"
+msgstr "Utilidad Neta"
+
+#: .\frontend\templates\layauts\base.html:130
+#: .\frontend\templates\layauts\base.html:541
+#: .\frontend\templates\partials\header.html:95
+#: .\frontend\templates\partials\sidebar.html:122 .\frontend\views.py:172
+msgid "dividendos_pagados"
+msgstr "EBITDA"
+
+#: .\frontend\templates\layauts\base.html:135
+#: .\frontend\templates\partials\header.html:99
+#: .\frontend\templates\partials\sidebar.html:127 .\frontend\views.py:180
+msgid "utilidad_neta"
+msgstr "Número de Sucursales"
+
+#: .\frontend\templates\layauts\base.html:140
+#: .\frontend\templates\partials\header.html:103
+#: .\frontend\templates\partials\sidebar.html:132 .\frontend\views.py:188
+msgid "salario_min"
+msgstr "Ratio de salario mínimo entre hombres y mujeres"
+
+#: .\frontend\templates\layauts\base.html:147
+#: .\frontend\templates\partials\header.html:107
+#: .\frontend\templates\partials\sidebar.html:137 .\frontend\views.py:196
+msgid "inversion_proyecto"
+msgstr "Inversión por proyecto"
+
+#: .\frontend\templates\layauts\base.html:152
+#: .\frontend\templates\partials\header.html:111
+#: .\frontend\templates\partials\sidebar.html:142 .\frontend\views.py:204
+msgid "inversiones_comunitarias"
+msgstr "Inversiones comunitarias"
+
+#: .\frontend\templates\layauts\base.html:157
+#: .\frontend\templates\partials\header.html:115
+#: .\frontend\templates\partials\sidebar.html:147 .\frontend\views.py:212
+msgid "ejecutivos_contratados"
+msgstr "Altos ejecutivos y mandos medios contratados en la comunidad local"
+
+#: .\frontend\templates\layauts\base.html:163
+#: .\frontend\templates\partials\header.html:120
+#: .\frontend\templates\partials\sidebar.html:153 .\frontend\views.py:220
+msgid "inversion_ausencias"
+msgstr "Inversión por ausencias"
+
+#: .\frontend\templates\layauts\base.html:168
+#: .\frontend\templates\partials\header.html:124
+#: .\frontend\templates\partials\sidebar.html:158 .\frontend\views.py:228
+msgid "inversion_prestaciones"
+msgstr "Inversión por prestaciones"
+
+#: .\frontend\templates\layauts\base.html:173
+#: .\frontend\templates\partials\header.html:128
+#: .\frontend\templates\partials\sidebar.html:163 .\frontend\views.py:236
+msgid "invertido_iniciativas"
+msgstr "Total invertido en iniciativas"
+
+#: .\frontend\templates\layauts\base.html:178
+#: .\frontend\templates\partials\header.html:132
+#: .\frontend\templates\partials\sidebar.html:168 .\frontend\views.py:244
+msgid "perdidas_demandas"
+msgstr "Total perdido en demandas"
+
+#: .\frontend\templates\layauts\base.html:186
+#: .\frontend\templates\partials\header.html:146
+#: .\frontend\templates\partials\sidebar.html:176
+#: .\frontend\templates\partials\sidebar.html:178
+#: .\frontend\templates\partials\sidebar.html:197 .\frontend\views.py:266
+#: .\frontend\views.py:275 .\frontend\views.py:283 .\frontend\views.py:291
+msgid "ambientales"
+msgstr "Ambientales"
+
+#: .\frontend\templates\layauts\base.html:208
+#: .\frontend\templates\partials\header.html:149
+#: .\frontend\templates\partials\sidebar.html:198 .\frontend\views.py:265
+msgid "consumo_energetico"
+msgstr "Consumo energético"
+
+#: .\frontend\templates\layauts\base.html:213
+msgid "obligaciones_laborales"
+msgstr "Consumo de Agua"
+
+#: .\frontend\templates\layauts\base.html:218
+#: .\frontend\templates\partials\header.html:157
+#: .\frontend\templates\partials\sidebar.html:208 .\frontend\views.py:282
+msgid "consumo_energia_renobable"
+msgstr "Producción y consumo de energía renovable"
+
+#: .\frontend\templates\layauts\base.html:223
+#: .\frontend\templates\partials\header.html:161
+#: .\frontend\templates\partials\sidebar.html:213 .\frontend\views.py:290
+msgid "reduccion_consumo_energia"
+msgstr "Reducción del consumo de energía"
+
+#: .\frontend\templates\layauts\base.html:231
+#: .\frontend\templates\partials\header.html:174
+#: .\frontend\templates\partials\sidebar.html:221
+#: .\frontend\templates\partials\sidebar.html:223
+#: .\frontend\templates\partials\sidebar.html:242 .\frontend\views.py:304
+#: .\frontend\views.py:312
+msgid "sociales"
+msgstr "Sociales"
+
+#: .\frontend\templates\layauts\base.html:253
+#: .\frontend\templates\partials\header.html:177
+#: .\frontend\templates\partials\sidebar.html:243 .\frontend\views.py:303
+msgid "empleados_funcion"
+msgstr "Número de empleados por zona geográfica"
+
+#: .\frontend\templates\layauts\base.html:258
+#: .\frontend\templates\partials\header.html:181
+#: .\frontend\templates\partials\sidebar.html:248 .\frontend\views.py:311
+msgid "empleados_sindicato"
+msgstr "Satisfacción de los empleados"
+
+#: .\frontend\templates\layauts\base.html:266
+#: .\frontend\templates\partials\header.html:194
+#: .\frontend\templates\partials\sidebar.html:256
+#: .\frontend\templates\partials\sidebar.html:258
+#: .\frontend\templates\partials\sidebar.html:277 .\frontend\views.py:324
+#: .\frontend\views.py:332 .\frontend\views.py:340 .\frontend\views.py:348
+#: .\frontend\views.py:356 .\frontend\views.py:364
+msgid "gobierno_corporativo"
+msgstr "Gobierno corporativo"
+
+#: .\frontend\templates\layauts\base.html:288
+#: .\frontend\templates\partials\header.html:197
+#: .\frontend\templates\partials\sidebar.html:278 .\frontend\views.py:323
+msgid "accionistas_mayoritarios"
+msgstr "Número de accionistas mayoritarios"
+
+#: .\frontend\templates\layauts\base.html:293
+#: .\frontend\templates\partials\header.html:201
+#: .\frontend\templates\partials\sidebar.html:283 .\frontend\views.py:331
+msgid "consejo_admon"
+msgstr "Número de integrantes del consejo de administración"
+
+#: .\frontend\templates\layauts\base.html:298
+#: .\frontend\templates\partials\header.html:205
+#: .\frontend\templates\partials\sidebar.html:288 .\frontend\views.py:339
+msgid "consejo_admon_independientes"
+msgstr "Número de integrantes independientes del consejo de administración"
+
+#: .\frontend\templates\layauts\base.html:303
+#: .\frontend\templates\partials\header.html:209
+#: .\frontend\templates\partials\sidebar.html:293 .\frontend\views.py:347
+msgid "areas_direccion"
+msgstr "Número de comités, áreas y direcciones"
+
+#: .\frontend\templates\layauts\base.html:308
+#: .\frontend\templates\partials\header.html:213
+#: .\frontend\templates\partials\sidebar.html:298 .\frontend\views.py:355
+msgid "directivos_relevantes"
+msgstr "Número de directivos relevantes"
+
+#: .\frontend\templates\layauts\base.html:313
+#: .\frontend\templates\partials\header.html:217
+#: .\frontend\templates\partials\sidebar.html:303 .\frontend\views.py:363
+msgid "compensacines_personal_clave"
+msgstr "Compensaciones al personal clave de la entidad"
+
+#: .\frontend\templates\layauts\base.html:321
+#: .\frontend\templates\partials\sidebar.html:311
+#, fuzzy
+#| msgid "ambientales"
+msgid "medio ambiente"
+msgstr "Ambientales"
+
+#: .\frontend\templates\layauts\base.html:343
+#: .\frontend\templates\layauts\base.html:410
+#: .\frontend\templates\partials\sidebar.html:333
+#: .\frontend\templates\partials\sidebar.html:400 .\frontend\views.py:16
+msgid "materiales"
 msgstr ""
+
+#: .\frontend\templates\layauts\base.html:346
+#: .\frontend\templates\layauts\base.html:413
+#: .\frontend\templates\partials\sidebar.html:336
+#: .\frontend\templates\partials\sidebar.html:403 .\frontend\views.py:24
+msgid "energía"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:349
+#: .\frontend\templates\layauts\base.html:416
+#: .\frontend\templates\partials\sidebar.html:339
+#: .\frontend\templates\partials\sidebar.html:406 .\frontend\views.py:40
+msgid "emisiones"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:352
+#: .\frontend\templates\layauts\base.html:419
+#: .\frontend\templates\partials\sidebar.html:342
+#: .\frontend\templates\partials\sidebar.html:409 .\frontend\views.py:32
+msgid "agua y afluentes"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:355
+#: .\frontend\templates\layauts\base.html:422
+#: .\frontend\templates\partials\sidebar.html:345
+#: .\frontend\templates\partials\sidebar.html:412 .\frontend\views.py:48
+msgid "residuos"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:358
+#: .\frontend\templates\layauts\base.html:425
+#: .\frontend\templates\partials\sidebar.html:348
+#: .\frontend\templates\partials\sidebar.html:415 .\frontend\views.py:64
+msgid "etica y anticorrupcion"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:361
+#: .\frontend\templates\layauts\base.html:428
+#: .\frontend\templates\partials\sidebar.html:351
+#: .\frontend\templates\partials\sidebar.html:418 .\frontend\views.py:72
+msgid "gobierno corporativo"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:364
+#: .\frontend\templates\layauts\base.html:431
+#: .\frontend\templates\partials\sidebar.html:354
+#: .\frontend\templates\partials\sidebar.html:421
+msgid "analisis de riesgo"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:367
+#: .\frontend\templates\layauts\base.html:434
+#: .\frontend\templates\partials\sidebar.html:357
+#: .\frontend\templates\partials\sidebar.html:424 .\frontend\views.py:80
+msgid "productos de calidad"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:370
+#: .\frontend\templates\layauts\base.html:437
+#: .\frontend\templates\partials\sidebar.html:360
+#: .\frontend\templates\partials\sidebar.html:427 .\frontend\views.py:88
+msgid "salud y seguridad de los empleados"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:372
+#: .\frontend\templates\layauts\base.html:439
+#: .\frontend\templates\partials\sidebar.html:362
+#: .\frontend\templates\partials\sidebar.html:429
+msgid "capacitacion"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:375
+#: .\frontend\templates\layauts\base.html:442
+#: .\frontend\templates\partials\sidebar.html:365
+#: .\frontend\templates\partials\sidebar.html:432
+msgid "equidad de genero"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:378
+#: .\frontend\templates\layauts\base.html:445
+#: .\frontend\templates\partials\sidebar.html:368
+#: .\frontend\templates\partials\sidebar.html:435
+msgid "relacion con clientes"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:381
+#: .\frontend\templates\layauts\base.html:448
+#: .\frontend\templates\partials\sidebar.html:371
+#: .\frontend\templates\partials\sidebar.html:438 .\frontend\views.py:120
+msgid "ciberseguridad"
+msgstr ""
+
+#: .\frontend\templates\layauts\base.html:388
+#: .\frontend\templates\partials\sidebar.html:378
+#, fuzzy
+#| msgid "sociales"
+msgid "Social "
+msgstr "Sociales"
+
+#: .\frontend\templates\layauts\base_responsive.html:9
+msgid "site_title"
+msgstr ""
+
+#: .\frontend\templates\partials\header.html:153
+#: .\frontend\templates\partials\sidebar.html:203
+msgid "consumo_agua"
+msgstr "Consumo de Agua"
+
+#: .\frontend\templates\frontend\views.py:274
+msgid "Consumo_agua"
+msgstr "Consumo de Agua"
 
 #: .\frontend\views.py:9
 msgid "index"
 msgstr ""
 
-#: .\frontend\views.py:16
-msgid "materiales"
-msgstr ""
-
-#: .\frontend\views.py:24
-msgid "energía"
-msgstr ""
-
-#: .\frontend\views.py:32
-msgid "agua y afluentes"
-msgstr ""
-
-#: .\frontend\views.py:40
-msgid "emisiones"
-msgstr ""
-
-#: .\frontend\views.py:48
-msgid "residuos"
-msgstr ""
-
 #: .\frontend\views.py:56
 msgid "Análisis de riesgos (climático y sistémico)"
-msgstr ""
-
-#: .\frontend\views.py:64
-msgid "etica y anticorrupcion"
-msgstr ""
-
-#: .\frontend\views.py:72
-msgid "gobierno corporativo"
-msgstr ""
-
-#: .\frontend\views.py:80
-msgid "productos de calidad"
-msgstr ""
-
-#: .\frontend\views.py:88
-msgid "salud y seguridad de los empleados"
 msgstr ""
 
 #: .\frontend\views.py:96
@@ -82,138 +373,6 @@ msgstr ""
 msgid "relación con clientes y comunidades"
 msgstr ""
 
-#: .\frontend\views.py:120
-msgid "ciberseguridad"
-msgstr ""
-
-#: .\frontend\views.py:132
-msgid "ingresos"
-msgstr "Total de ingresos"
-
-#: .\frontend\views.py:133 .\frontend\views.py:141 .\frontend\views.py:149
-#: .\frontend\views.py:157 .\frontend\views.py:165 .\frontend\views.py:173
-#: .\frontend\views.py:181 .\frontend\views.py:189 .\frontend\views.py:197
-#: .\frontend\views.py:205 .\frontend\views.py:213 .\frontend\views.py:221
-#: .\frontend\views.py:229 .\frontend\views.py:237 .\frontend\views.py:245
-#: .\frontend\views.py:253 .\frontend\views.py:261
-msgid "economicos"
-msgstr "Económicos"
-
-#: .\frontend\views.py:140
-msgid "costos"
-msgstr "Costos Totales"
-
-#: .\frontend\views.py:148
-msgid "operacion"
-msgstr "Utilidad Bruta"
-
-#: .\frontend\views.py:156
-msgid "financieros"
-msgstr "Utilidad de Operación"
-
-#: .\frontend\views.py:164
-msgid "impuestos_utilidad"
-msgstr "Utilidad Neta"
-
-#: .\frontend\views.py:172
-msgid "dividendos_pagados"
-msgstr "EBITDA"
-
-#: .\frontend\views.py:180
-msgid "utilidad_neta"
-msgstr "Número de Sucursales"
-
-#: .\frontend\views.py:188
-msgid "salario_min"
-msgstr "Ratio de salario mínimo entre hombres y mujeres"
-
-#: .\frontend\views.py:204
-msgid "inversion_proyecto"
-msgstr "Inversión por proyecto"
-
-#: .\frontend\views.py:212
-msgid "inversiones_comunitarias"
-msgstr "Inversiones comunitarias"
-
-#: .\frontend\views.py:220
-msgid "ejecutivos_contratados"
-msgstr "Altos ejecutivos y mandos medios contratados en la comunidad local"
-
-#: .\frontend\views.py:228
-msgid "inversion_ausencias"
-msgstr "Inversión por ausencias"
-
-#: .\frontend\views.py:236
-msgid "inversion_prestaciones"
-msgstr "Inversión por prestaciones"
-
-#: .\frontend\views.py:244
-msgid "invertido_iniciativas"
-msgstr "Total invertido en iniciativas"
-
 #: .\frontend\views.py:252
-msgid "perdidas_demandas"
-msgstr "Total perdido en demandas"
-
-
-
-#: .\frontend\views.py:273
-msgid "consumo_energetico"
-msgstr "Consumo energético"
-
-#: .\frontend\views.py:196
-msgid "obligaciones_laborales"
-msgstr "Consumo de Agua"
-
-#: .\frontend\views.py:274 .\frontend\views.py:282 .\frontend\views.py:290
-msgid "ambientales"
-msgstr "Ambientales"
-
-#: .\frontend\views.py:281
-msgid "consumo_energia_renobable"
-msgstr "Producción y consumo de energía renovable"
-
-#: .\frontend\views.py:289
-msgid "reduccion_consumo_energia"
-msgstr "Reducción del consumo de energía"
-
-#: .\frontend\views.py:302
-msgid "empleados_funcion"
-msgstr "Número de empleados por zona geográfica"
-
-#: .\frontend\views.py:303 .\frontend\views.py:311
-msgid "sociales"
-msgstr "Sociales"
-
-#: .\frontend\views.py:310
-msgid "empleados_sindicato"
-msgstr "Satisfacción de los empleados"
-
-#: .\frontend\views.py:322
-msgid "accionistas_mayoritarios"
-msgstr "Número de accionistas mayoritarios"
-
-#: .\frontend\views.py:323 .\frontend\views.py:331 .\frontend\views.py:339
-#: .\frontend\views.py:347 .\frontend\views.py:355 .\frontend\views.py:363
-msgid "gobierno_corporativo"
-msgstr "Gobierno corporativo"
-
-#: .\frontend\views.py:330
-msgid "consejo_admon"
-msgstr "Número de integrantes del consejo de administración"
-
-#: .\frontend\views.py:338
-msgid "consejo_admon_independientes"
-msgstr "Número de integrantes independientes del consejo de administración"
-
-#: .\frontend\views.py:346
-msgid "areas_direccion"
-msgstr "Número de comités, áreas y direcciones"
-
-#: .\frontend\views.py:354
-msgid "directivos_relevantes"
-msgstr "Número de directivos relevantes"
-
-#: .\frontend\views.py:362
-msgid "compensacines_personal_clave"
-msgstr "Compensaciones al personal clave de la entidad"
+msgid "maquinaria_averiada"
+msgstr ""

@@ -191,14 +191,6 @@ def salario_min(request):
     return render(request, 'frontend/economicos/salario_min.html', context)
 
 
-def obligaciones_laborales(request):
-    context = {
-        'page': _('obligaciones_laborales'),
-        'section': _('economicos')
-    }
-    return render(request, 'frontend/economicos/obligaciones_laborales.html', context)
-
-
 def inversion_proyecto(request):
     context = {
         'page': _('inversion_proyecto'),
@@ -274,6 +266,15 @@ def consumo_energetico(request):
         'section': _('ambientales')
     }
     return render(request, 'frontend/ambientales/consumo_energetico.html', context)
+
+
+
+def consumo_agua(request):
+    context = {
+        'page': _('consumo_agua'),
+        'section': _('ambientales')
+    }
+    return render(request, 'frontend/ambientales/consumo_agua.html', context)
 
 
 def consumo_energia_renobable(request):
