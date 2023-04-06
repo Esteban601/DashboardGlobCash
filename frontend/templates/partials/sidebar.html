@@ -116,12 +116,12 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                 </li>
                 <li class="{% if page == _('impuestos_utilidad') %}active{% endif %}">
                     <a class="sidebar-link" href="{% url 'impuestos_utilidad' %}">
-                        Impuestos a la utilidad
+                        Utilidad Neta
                     </a>
                 </li>
                 <li class="{% if page == _('dividendos_pagados') %}active{% endif %}">
                     <a class="sidebar-link" href="{% url 'dividendos_pagados' %}">
-                        Dividendos pagados
+                        EBITDA
                     </a>
                 </li>
                 <li class="{% if page == _('utilidad_neta') %}active{% endif %}">
@@ -131,13 +131,7 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                 </li>
                 <li class="{% if page == _('salario_min') %}active{% endif %}">
                     <a class="sidebar-link" href="{% url 'salario_min' %}">
-                        Ratio de salario mínimo</br>
-                        entre hombres y mujeres
-                    </a>
-                </li>
-                <li class="{% if page == _('obligaciones_laborales') %}active{% endif %}">
-                    <a class="sidebar-link" href="{% url 'obligaciones_laborales' %}">
-                        Obligaciones laborales al retiro
+                        Número de Sucursales
                     </a>
                 </li>
                 <li class="{% if page == _('inversion_proyecto') %}active{% endif %}">
@@ -176,11 +170,6 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                         Total perdido en demandas
                     </a>
                 </li>
-                <li class="{% if page == _('maquinaria_averiada') %}active{% endif %}">
-                    <a class="sidebar-link" href="{% url 'maquinaria_averiada' %}">
-                        Maquinaria averiada
-                    </a>
-                </li>
             </ul>
         </li>
 
@@ -209,6 +198,11 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                 <li class="{% if page == _('consumo_energetico') %}active{% endif %}">
                     <a class="sidebar-link" href="{% url 'consumo_energetico' %}">
                         Consumo energético
+                    </a>
+                </li>
+                <li class="{% if page == _('obligaciones_laborales') %}active{% endif %}">
+                    <a class="sidebar-link" href="{% url 'obligaciones_laborales' %}">
+                        Consumo de Agua
                     </a>
                 </li>
                 <li class="{% if page == _('consumo_energia_renobable') %}active{% endif %}">
@@ -248,12 +242,12 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
             <ul class="list-unstyled collapse {% if section == _('sociales') %}show{% endif %}" id="socialesdropdownDropdown">
                 <li class="{% if page == _('empleados_funcion') %}active{% endif %}">
                     <a class="sidebar-link" href="{% url 'empleados_funcion' %}">
-                        Número de empleados, desglose por función
+                        Número de empleados por zona geográfica
                     </a>
                 </li>
                 <li class="{% if page == _('empleados_sindicato') %}active{% endif %}">
                     <a class="sidebar-link" href="{% url 'empleados_sindicato' %}">
-                        Porcentaje de empleados afiliados a sindicatos
+                        Satisfacción de los empleados
                     </a>
                 </li>
             </ul>

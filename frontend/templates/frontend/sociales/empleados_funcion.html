@@ -26,7 +26,7 @@
         var chart5 = AmCharts.makeChart("chart5", {
             "titles": [
                 {
-                    "text": "Número de empleados, desglose por función.",
+                    "text": "Número de empleados por zona geográfica",
                     "size": 16,
                     "color": "#000000"
                 },
@@ -49,35 +49,24 @@
             "dataProvider": [
                 {
                     "year": 2019,
-                    "admon": 339,
-                    "operaciones": 2387,
-                    "construccion": 63,
-                    "directivos": 18,
-                    "total": 2807,
+                    "México": 400,
+                    "Guatemala": 100,
+
                 },
                 {
                     "year": 2020,
-                    "admon": 408,
-                    "operaciones": 2481,
-                    "construccion": 52,
-                    "directivos": 18,
-                    "total": 2959,
+                    "México": 480,
+                    "Guatemala": 120,
                 },
                 {
                     "year": 2021,
-                    "admon": 351,
-                    "operaciones": 2618,
-                    "construccion": 44,
-                    "directivos": 17,
-                    "total": 3030,
+                    "México": 560,
+                    "Guatemala": 130,
                 },
                 {
                     "year": 2022,
-                    "admon": 378,
-                    "operaciones": 2726,
-                    "construccion": 34,
-                    "directivos": 17,
-                    "total": 3155,
+                    "México": 630,
+                    "Guatemala": 140,
                 }
             ],
             "valueAxes": [{
@@ -91,50 +80,20 @@
                     "fillAlphas": 0.8,
                     "labelText": "[[value]]",
                     "lineAlpha": 0.3,
-                    "title": "Administración",
+                    "title": "México",
                     "type": "column",
                     "color": "#000000",
-                    "valueField": "admon"
+                    "valueField": "México"
                 },
                 {
                     "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
                     "fillAlphas": 0.8,
                     "labelText": "[[value]]",
                     "lineAlpha": 0.3,
-                    "title": "Operaciones",
+                    "title": "Guatemala",
                     "type": "column",
                     "color": "#000000",
-                    "valueField": "operaciones"
-                },
-                {
-                    "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
-                    "fillAlphas": 0.8,
-                    "labelText": "[[value]]",
-                    "lineAlpha": 0.3,
-                    "title": "Construcción e ingeniería",
-                    "type": "column",
-                    "color": "#000000",
-                    "valueField": "construccion"
-                },
-                {
-                    "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
-                    "fillAlphas": 0.8,
-                    "labelText": "[[value]]",
-                    "lineAlpha": 0.3,
-                    "title": "Directivos relevantes",
-                    "type": "column",
-                    "color": "#000000",
-                    "valueField": "directivos"
-                },
-                {
-                    "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
-                    "fillAlphas": 0.8,
-                    "labelText": "[[value]]",
-                    "lineAlpha": 0.3,
-                    "title": "Total",
-                    "type": "column",
-                    "color": "#000000",
-                    "valueField": "total"
+                    "valueField": "Guatemala"
                 }
             ],
             "categoryField": "year",

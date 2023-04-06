@@ -124,17 +124,17 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                         </li>
                         <li class="{% if page == _('impuestos_utilidad') %}active{% endif %}">
                             <a class="sidebar-link" href="{% url 'impuestos_utilidad' %}">
-                                Impuestos a la utilidad
+                                Utilidad Neta
                             </a>
                         </li>
                         <li class="{% if page == _('dividendos_pagados') %}active{% endif %}">
                             <a class="sidebar-link" href="{% url 'dividendos_pagados' %}">
-                                Dividendos pagados
+                                EBITDA
                             </a>
                         </li>
                         <li class="{% if page == _('utilidad_neta') %}active{% endif %}">
                             <a class="sidebar-link" href="{% url 'utilidad_neta' %}">
-                                Utilidad neta
+                                Número de Sucursales
                             </a>
                         </li>
                         <li class="{% if page == _('salario_min') %}active{% endif %}">
@@ -143,11 +143,7 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                                 entre hombres y mujeres
                             </a>
                         </li>
-                        <li class="{% if page == _('obligaciones_laborales') %}active{% endif %}">
-                            <a class="sidebar-link" href="{% url 'obligaciones_laborales' %}">
-                                Obligaciones laborales al retiro
-                            </a>
-                        </li>
+                        
                         <li class="{% if page == _('inversion_proyecto') %}active{% endif %}">
                             <a class="sidebar-link" href="{% url 'inversion_proyecto' %}">
                                 Inversión por proyecto
@@ -184,11 +180,6 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                                 Total perdido en demandas
                             </a>
                         </li>
-                        <li class="{% if page == _('maquinaria_averiada') %}active{% endif %}">
-                            <a class="sidebar-link" href="{% url 'maquinaria_averiada' %}">
-                                Maquinaria averiada
-                            </a>
-                        </li>
                     </ul>
                 </li>
 
@@ -217,6 +208,11 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                         <li class="{% if page == _('consumo_energetico') %}active{% endif %}">
                             <a class="sidebar-link" href="{% url 'consumo_energetico' %}">
                                 Consumo energético
+                            </a>
+                        </li>
+                        <li class="{% if page == _('obligaciones_laborales') %}active{% endif %}">
+                            <a class="sidebar-link" href="{% url 'obligaciones_laborales' %}">
+                                Consumo de Agua
                             </a>
                         </li>
                         <li class="{% if page == _('consumo_energia_renobable') %}active{% endif %}">
@@ -256,12 +252,12 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                     <ul class="collapse list-unstyled collapse" id="socialesdropdownDropdown">
                         <li class="{% if page == _('empleados_funcion') %}active{% endif %}">
                             <a class="sidebar-link" href="{% url 'empleados_funcion' %}">
-                                Número de empleados, desglose por función
+                                Número de empleados por zona geográfica
                             </a>
                         </li>
                         <li class="{% if page == _('empleados_sindicato') %}active{% endif %}">
                             <a class="sidebar-link" href="{% url 'empleados_sindicato' %}">
-                                Porcentaje de empleados afiliados a sindicatos
+                                Satisfacción de los empleados
                             </a>
                         </li>
                     </ul>
@@ -538,93 +534,14 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                                                 {% if page != _('impuestos_utilidad')%}
                                                 <li class="active">
                                                     <a class="sidebar-link" href="{% url 'impuestos_utilidad' %}">
-                                                        Impuestos a la utilidad
+                                                        Utilidad Neta
                                                     </a>
                                                 </li>
                                                 {% endif %}
                                                 {% if page != _('dividendos_pagados')%}
                                                 <li class="active">
                                                     <a class="sidebar-link" href="{% url 'dividendos_pagados' %}">
-                                                        Dividendos pagados
-                                                    </a>
-                                                </li>
-                                                {% endif %}
-                                                {% if page != _('utilidad_neta')%}
-                                                <li class="active">
-                                                    <a class="sidebar-link" href="{% url 'utilidad_neta' %}">
-                                                        Utilidad neta
-                                                    </a>
-                                                </li>
-                                                {% endif %}
-                                                {% if page != _('salario_min')%}
-                                                <li class="active">
-                                                    <a class="sidebar-link" href="{% url 'salario_min' %}">
-                                                        Ratio de salario mínimo</br>
-                                                        entre hombres y mujeres
-                                                    </a>
-                                                </li>
-                                                {% endif %}
-                                                {% if page != _('obligaciones_laborales')%}
-                                                <li class="active">
-                                                    <a class="sidebar-link" href="{% url 'obligaciones_laborales' %}">
-                                                        Obligaciones laborales al retiro
-                                                    </a>
-                                                </li>
-                                                {% endif %}
-                                                {% if page != _('inversion_proyecto')%}
-                                                <li class="active">
-                                                    <a class="sidebar-link" href="{% url 'inversion_proyecto' %}">
-                                                        Inversión por proyecto
-                                                    </a>
-                                                </li>
-                                                {% endif %}
-                                                {% if page != _('inversiones_comunitarias')%}
-                                                <li class="active">
-                                                    <a class="sidebar-link" href="{% url 'inversiones_comunitarias' %}">
-                                                        Inversiones comunitarias
-                                                    </a>
-                                                </li>
-                                                {% endif %}
-                                                {% if page != _('ejecutivos_contratados')%}
-                                                <li class="active">
-                                                    <a class="sidebar-link" href="{% url 'ejecutivos_contratados' %}">
-                                                        Altos ejecutivos y mandos medios </br>
-                                                        contratados en la comunidad local
-                                                    </a>
-                                                </li>
-                                                {% endif %}
-                                                {% if page != _('inversion_ausencias')%}
-                                                <li class="active">
-                                                    <a class="sidebar-link" href="{% url 'inversion_ausencias' %}">
-                                                        Inversión por ausencias
-                                                    </a>
-                                                </li>
-                                                {% endif %}
-                                                {% if page != _('inversion_prestaciones')%}
-                                                <li class="active">
-                                                    <a class="sidebar-link" href="{% url 'inversion_prestaciones' %}">
-                                                        Inversión por prestaciones
-                                                    </a>
-                                                </li>
-                                                {% endif %}
-                                                {% if page != _('invertido_iniciativas')%}
-                                                <li class="active">
-                                                    <a class="sidebar-link" href="{% url 'invertido_iniciativas' %}">
-                                                        Total invertido en iniciativas
-                                                    </a>
-                                                </li>
-                                                {% endif %}
-                                                {% if page != _('perdidas_demandas')%}
-                                                <li class="active">
-                                                    <a class="sidebar-link" href="{% url 'perdidas_demandas' %}">
-                                                        Total perdido en demandas
-                                                    </a>
-                                                </li>
-                                                {% endif %}
-                                                {% if page != _('maquinaria_averiada')%}
-                                                <li class="active">
-                                                    <a class="sidebar-link" href="{% url 'maquinaria_averiada' %}">
-                                                        Maquinaria averiada
+                                                        EBITDA
                                                     </a>
                                                 </li>
                                                 {% endif %}

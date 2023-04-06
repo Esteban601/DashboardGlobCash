@@ -113,23 +113,19 @@ msgstr "Utilidad de Operación"
 
 #: .\frontend\views.py:164
 msgid "impuestos_utilidad"
-msgstr "Impuestos a la utilidad"
+msgstr "Utilidad Neta"
 
 #: .\frontend\views.py:172
 msgid "dividendos_pagados"
-msgstr "Dividendos pagados"
+msgstr "EBITDA"
 
 #: .\frontend\views.py:180
 msgid "utilidad_neta"
-msgstr "Utilidad neta"
+msgstr "Número de Sucursales"
 
 #: .\frontend\views.py:188
 msgid "salario_min"
 msgstr "Ratio de salario mínimo entre hombres y mujeres"
-
-#: .\frontend\views.py:196
-msgid "obligaciones_laborales"
-msgstr "Obligaciones laborales al retiro"
 
 #: .\frontend\views.py:204
 msgid "inversion_proyecto"
@@ -159,13 +155,15 @@ msgstr "Total invertido en iniciativas"
 msgid "perdidas_demandas"
 msgstr "Total perdido en demandas"
 
-#: .\frontend\views.py:260
-msgid "maquinaria_averiada"
-msgstr "Maquinaria averiada"
+
 
 #: .\frontend\views.py:273
 msgid "consumo_energetico"
 msgstr "Consumo energético"
+
+#: .\frontend\views.py:196
+msgid "obligaciones_laborales"
+msgstr "Consumo de Agua"
 
 #: .\frontend\views.py:274 .\frontend\views.py:282 .\frontend\views.py:290
 msgid "ambientales"
@@ -181,7 +179,7 @@ msgstr "Reducción del consumo de energía"
 
 #: .\frontend\views.py:302
 msgid "empleados_funcion"
-msgstr "Número de empleados, desglose por función"
+msgstr "Número de empleados por zona geográfica"
 
 #: .\frontend\views.py:303 .\frontend\views.py:311
 msgid "sociales"
@@ -189,7 +187,7 @@ msgstr "Sociales"
 
 #: .\frontend\views.py:310
 msgid "empleados_sindicato"
-msgstr "Porcentaje de empleados afiliados a sindicatos"
+msgstr "Satisfacción de los empleados"
 
 #: .\frontend\views.py:322
 msgid "accionistas_mayoritarios"

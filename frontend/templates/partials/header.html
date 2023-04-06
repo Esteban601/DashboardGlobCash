@@ -94,20 +94,15 @@
                         </a>
                         <a class="dropdown-item {% if page == _('dividendos_pagados') %}disabled{% endif %}"
                            href="{% url 'dividendos_pagados' %}">
-                            Dividendos pagados
+                            Utilidad Neta
                         </a>
                         <a class="dropdown-item {% if page == _('utilidad_neta') %}disabled{% endif %}"
                            href="{% url 'utilidad_neta' %}">
-                            Utilidad neta
+                            EBITDA
                         </a>
                         <a class="dropdown-item {% if page == _('salario_min') %}disabled{% endif %}"
                            href="{% url 'salario_min' %}">
-                            Ratio de salario mínimo</br>
-                            entre hombres y mujeres
-                        </a>
-                        <a class="dropdown-item {% if page == _('obligaciones_laborales') %}disabled{% endif %}"
-                           href="{% url 'obligaciones_laborales' %}">
-                            Obligaciones laborales al retiro
+                           Número de Sucursales
                         </a>
                         <a class="dropdown-item {% if page == _('inversion_proyecto') %}disabled{% endif %}"
                            href="{% url 'inversion_proyecto' %}">
@@ -138,10 +133,7 @@
                            href="{% url 'perdidas_demandas' %}">
                             Total perdido en demandas
                         </a>
-                        <a class="dropdown-item {% if page == _('maquinaria_averiada') %}disabled{% endif %}"
-                           href="{% url 'maquinaria_averiada' %}">
-                            Maquinaria averiada
-                        </a>
+                        
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -157,6 +149,10 @@
                         <a class="dropdown-item {% if page == _('consumo_energetico') %}disabled{% endif %}"
                            href="{% url 'consumo_energetico' %}">
                             Consumo energético
+                        </a>
+                        <a class="dropdown-item {% if page == _('obligaciones_laborales') %}disabled{% endif %}"
+                           href="{% url 'obligaciones_laborales' %}">
+                            Consumo de Agua
                         </a>
                         <a class="dropdown-item {% if page == _('consumo_energia_renobable') %}disabled{% endif %}"
                            href="{% url 'consumo_energia_renobable' %}">
@@ -180,11 +176,11 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkSeccionSoc">
                         <a class="dropdown-item {% if page == _('empleados_funcion') %}disabled{% endif %}"
                            href="{% url 'empleados_funcion' %}">
-                            Número de empleados, desglose por función
+                           Número de empleados por zona geográfica
                         </a>
                         <a class="dropdown-item {% if page == _('empleados_sindicato') %}disabled{% endif %}"
                            href="{% url 'empleados_sindicato' %}">
-                            Porcentaje de empleados afiliados a sindicatos
+                           Satisfacción de los empleados
                         </a>
                     </div>
                 </li>

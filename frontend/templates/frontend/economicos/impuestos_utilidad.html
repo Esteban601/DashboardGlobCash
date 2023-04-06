@@ -26,14 +26,10 @@
         var chart5 = AmCharts.makeChart("chart5", {
             "titles": [
                 {
-                    "text": "Impuestos a la utilidad.",
+                    "text": "Utilidad Neta",
                     "size": 16,
                     "color": "#000000"
-                },
-                 {
-                     "text": "",
-                     "size": 12
-                 }
+                }
             ],
             "fontSize": 14,
             "type": "serial",
@@ -46,22 +42,29 @@
                 "verticalPadding": 8,
                 "color": "#ffffff"
             },
+            // {#"legend": {#}
+            // {#    "useGraphSettings": true,#}
+            // {#    "markerSize": 12,#}
+            // {#    "valueWidth": 0,#}
+            // {#    "verticalGap": 0,#}
+            // {#    "align": "center"#}
+            // {# },#}
             "dataProvider": [
                 {
                 "year": "2019",
-                "percent":   1798221,
+                "percent":  59810,
                 },
                 {
                 "year": "2020",
-                "percent":   764435,
+                "percent":  29413,
                 },
                 {
                 "year": "2021",
-                "percent":   424400,
+                "percent":  16110,
                 },
                 {
-                "year": "2022",
-                "percent":   378136,
+                "year": "2T22",
+                "percent":  20006,
                 }
             ],
             "valueAxes": [{
