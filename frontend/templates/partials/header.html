@@ -80,60 +80,34 @@
                            href="{% url 'ingresos' %}">
                             Total de ingresos
                         </a>
+                        <a class="dropdown-item {% if page == _('costos') %}disabled{% endif %}"
+                           href="{% url 'costos' %}">
+                            Costos Totales
+                        </a>
                         <a class="dropdown-item {% if page == _('operacion') %}disabled{% endif %}"
                            href="{% url 'operacion' %}">
-                            Costos Totales
+                            Utilidad Bruta
                         </a>
                         <a class="dropdown-item {% if page == _('financieros') %}disabled{% endif %}"
                            href="{% url 'financieros' %}">
-                            Utilidad Bruta
+                            Utilidad de Operación
                         </a>
                         <a class="dropdown-item {% if page == _('impuestos_utilidad') %}disabled{% endif %}"
                            href="{% url 'impuestos_utilidad' %}">
-                            Utilidad de Operación
+                            Utilidad Neta
                         </a>
                         <a class="dropdown-item {% if page == _('dividendos_pagados') %}disabled{% endif %}"
                            href="{% url 'dividendos_pagados' %}">
-                            Utilidad Neta
+                            EBITDA
                         </a>
                         <a class="dropdown-item {% if page == _('utilidad_neta') %}disabled{% endif %}"
                            href="{% url 'utilidad_neta' %}">
-                            EBITDA
+                           Número de Sucursales
                         </a>
                         <a class="dropdown-item {% if page == _('salario_min') %}disabled{% endif %}"
                            href="{% url 'salario_min' %}">
-                           Número de Sucursales
+                           Ratio De Salario Mínimo Entre Hombres Y Mujeres
                         </a>
-                        <a class="dropdown-item {% if page == _('inversion_proyecto') %}disabled{% endif %}"
-                           href="{% url 'inversion_proyecto' %}">
-                            Inversión por proyecto
-                        </a>
-                        <a class="dropdown-item {% if page == _('inversiones_comunitarias') %}disabled{% endif %}"
-                           href="{% url 'inversiones_comunitarias' %}">
-                            Inversiones comunitarias
-                        </a>
-                        <a class="dropdown-item {% if page == _('ejecutivos_contratados') %}disabled{% endif %}"
-                           href="{% url 'ejecutivos_contratados' %}">
-                            Altos ejecutivos y mandos medios </br>
-                            contratados en la comunidad local
-                        </a>
-                        <a class="dropdown-item {% if page == _('inversion_ausencias') %}disabled{% endif %}"
-                           href="{% url 'inversion_ausencias' %}">
-                            Inversión por ausencias
-                        </a>
-                        <a class="dropdown-item {% if page == _('inversion_prestaciones') %}disabled{% endif %}"
-                           href="{% url 'inversion_prestaciones' %}">
-                            Inversión por prestaciones
-                        </a>
-                        <a class="dropdown-item {% if page == _('invertido_iniciativas') %}disabled{% endif %}"
-                           href="{% url 'invertido_iniciativas' %}">
-                            Total invertido en iniciativas
-                        </a>
-                        <a class="dropdown-item {% if page == _('perdidas_demandas') %}disabled{% endif %}"
-                           href="{% url 'perdidas_demandas' %}">
-                            Total perdido en demandas
-                        </a>
-                        
                     </div>
                 </li>
                 <li class="nav-item dropdown">
