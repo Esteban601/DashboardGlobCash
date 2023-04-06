@@ -78,19 +78,19 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkSeccionEco">
                         <a class="dropdown-item {% if page == _('ingresos') %}disabled{% endif %}"
                            href="{% url 'ingresos' %}">
-                            Desglose de ingresos
+                            Total de ingresos
                         </a>
                         <a class="dropdown-item {% if page == _('operacion') %}disabled{% endif %}"
                            href="{% url 'operacion' %}">
-                            Gastos de operación
+                            Costos Totales
                         </a>
                         <a class="dropdown-item {% if page == _('financieros') %}disabled{% endif %}"
                            href="{% url 'financieros' %}">
-                            Gastos financieros
+                            Utilidad Bruta
                         </a>
                         <a class="dropdown-item {% if page == _('impuestos_utilidad') %}disabled{% endif %}"
                            href="{% url 'impuestos_utilidad' %}">
-                            Impuestos a la utilidad
+                            Utilidad de Operación
                         </a>
                         <a class="dropdown-item {% if page == _('dividendos_pagados') %}disabled{% endif %}"
                            href="{% url 'dividendos_pagados' %}">

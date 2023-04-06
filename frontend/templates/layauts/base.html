@@ -104,22 +104,22 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                     <ul class="collapse list-unstyled collapse show" id="economicosdropdownDropdown">
                         <li class="{% if page == _('ingresos') %}active{% endif %}">
                             <a class="sidebar-link" href="{% url 'ingresos' %}">
-                                Desglose de ingresos
+                                Total de ingresos
                             </a>
                         </li>
                         <li class="{% if page == _('costos') %}active{% endif %}">
                             <a class="sidebar-link" href="{% url 'costos' %}">
-                                Desglose de costos
+                                Costos Totales
                             </a>
                         </li>
                         <li class="{% if page == _('operacion') %}active{% endif %}">
                             <a class="sidebar-link" href="{% url 'operacion' %}">
-                                Gastos de operación
+                                Utilidad Bruta
                             </a>
                         </li>
                         <li class="{% if page == _('financieros') %}active{% endif %}">
                             <a class="sidebar-link" href="{% url 'financieros' %}">
-                                Gastos financieros
+                                Utilidad de Operación
                             </a>
                         </li>
                         <li class="{% if page == _('impuestos_utilidad') %}active{% endif %}">
@@ -510,28 +510,28 @@ l116 0 133 97 c73 53 135 103 138 110 7 17 -15 43 -36 43 -9 0 -49 -20 -90
                                                 {% if page != _('ingresos')%}
                                                 <li class="active">
                                                     <a class="sidebar-link" href="{% url 'ingresos' %}">
-                                                        Desglose de ingresos
+                                                        Total de Ingresos
                                                     </a>
                                                 </li>
                                                 {% endif %}
                                                 {% if page != _('costos')%}
                                                 <li class="active">
                                                     <a class="sidebar-link" href="{% url 'costos' %}">
-                                                        Desglose de costos
+                                                        Costos Totales
                                                     </a>
                                                 </li>
                                                 {% endif %}
                                                 {% if page != _('operacion')%}
                                                 <li class="active">
                                                     <a class="sidebar-link" href="{% url 'operacion' %}">
-                                                        Gastos de operación
+                                                        Utilidad Bruta
                                                     </a>
                                                 </li>
                                                 {% endif %}
                                                 {% if page != _('financieros')%}
                                                 <li class="active">
                                                     <a class="sidebar-link" href="{% url 'financieros' %}">
-                                                        Gastos financieros
+                                                        Utilidad de Operación
                                                     </a>
                                                 </li>
                                                 {% endif %}

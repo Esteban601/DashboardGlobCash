@@ -88,7 +88,7 @@ msgstr ""
 
 #: .\frontend\views.py:132
 msgid "ingresos"
-msgstr "Desglose de ingresos"
+msgstr "Total de ingresos"
 
 #: .\frontend\views.py:133 .\frontend\views.py:141 .\frontend\views.py:149
 #: .\frontend\views.py:157 .\frontend\views.py:165 .\frontend\views.py:173
@@ -101,15 +101,15 @@ msgstr "Económicos"
 
 #: .\frontend\views.py:140
 msgid "costos"
-msgstr "Desglose de costos"
+msgstr "Costos Totales"
 
 #: .\frontend\views.py:148
 msgid "operacion"
-msgstr "Gastos de operación"
+msgstr "Utilidad Bruta"
 
 #: .\frontend\views.py:156
 msgid "financieros"
-msgstr "Gastos financieros"
+msgstr "Utilidad de Operación"
 
 #: .\frontend\views.py:164
 msgid "impuestos_utilidad"
